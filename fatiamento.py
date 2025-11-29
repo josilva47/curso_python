@@ -8,4 +8,4 @@ Fatiamento de strings
 """
 variavel = 'Olá mundo'
 print(variavel[4:5])
-print(variavel[-1:-10:-1])
+print(variavel[-1:-10:-1]) #Inverte a string
