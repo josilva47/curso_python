@@ -43,6 +43,6 @@ while True:
         break
 
 print('~' * 40)
-print('\033[35mmObrigado por usar a nossa calculadora!\033[m')
+print('\033[35mObrigado por usar a nossa calculadora!\033[m')
 print('~' * 40)
  
