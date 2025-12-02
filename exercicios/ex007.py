@@ -14,13 +14,10 @@ while i < len(frase):
 
     frase_contada = frase.count(frase_iterada)
 
-    if i == 0:
+   
+    if apareceu_mais < frase_contada:
         apareceu_mais = frase_contada
         letra = frase_iterada
-    else:
-        if apareceu_mais < frase_contada:
-            apareceu_mais = frase_contada
-            letra = frase_iterada
     
     i += 1
 
