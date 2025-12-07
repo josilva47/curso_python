@@ -4,7 +4,7 @@ while True:
 
     cpf = input('Digite o CPF: ').strip().replace('-', '').replace('.', '')
 
-    if len(cpf) != 11 or not cpf.isdigit():
+    if len(cpf) != 11 or not cpf.isdigit() or cpf == (cpf[0] * len(cpf)):
         print('\033[31mCPF inválido!\033[m')
         print('\033[33mExemplo: xxx.xxx.xxx-xx\033[m')
         continue
