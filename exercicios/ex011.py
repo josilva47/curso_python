@@ -1,5 +1,4 @@
 
-multiplicar = 0
 
 while True:
 
@@ -41,9 +40,11 @@ while True:
     else:
         print('\033[31mCPF Inválido\033[m')
 
+
+    # ----- PERGUNTA AO USÚARIO -----
     continuar = ' '
     while continuar not in 'SN':
-        
+
         continuar = input('Validar outro CPF? [S/N] ').strip().upper()
 
 
