@@ -18,6 +18,7 @@ perguntas = [
     },
 ]
 
+acertos = 0
 for p in perguntas:
     
     print(f'\033[1;36mPergunta: {p['Pergunta']}\033[m')
@@ -43,9 +44,16 @@ for p in perguntas:
 
     resposta = p['Opções'][int(escolha_opcao) - 1]
 
-    print('\033[32mAcertou!\033[m' if resposta == p['Resposta'] else '\033[31mErrou!\033[m')
+    if resposta == p['Resposta']:
+        print('\033[32mAcertou!\033[m')
+        acertos += 1
+    else:
+        print('\033[31mErrou!\033[m')
+
     print()
     sleep(2)
+    
+print(f'Você acertou {acertos} perguntas!')
     
 
     
