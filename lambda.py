@@ -23,6 +23,8 @@ exibir(l1)
 print()
 exibir(l2)
 
+
+#OUTRO EXEMPLO
 soma = lambda n1, n2: n1 + n2
 
 print(soma(1, 2))
