@@ -20,4 +20,4 @@ Camisetas = [
 
 print_iter(combinations(pessoas, 2)) 
 print_iter(permutations(pessoas, 2))
-print_iter(product(*Camisetas))
+print_iter(product(*Camisetas)) # Passa vários iteráveis Ou usar repeat para repetir o mesmo iterável 
