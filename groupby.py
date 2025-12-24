@@ -1,4 +1,5 @@
 #groupby é uma função do módulo itertools que agrupa elementos consecutivos de um iterável com base em uma chave.
+#agrupa valores iguais que estão lado a lado
 
 from itertools import groupby
 
