@@ -28,3 +28,4 @@ print()
 get1 = getattr(string, 'upper', lambda: 'não existe')
 
 print(get1())
+print(dir(string))

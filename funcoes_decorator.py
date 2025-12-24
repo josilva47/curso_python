@@ -22,7 +22,7 @@ def criar_funcao(func):
     return interna
 
 #FUNÇAO ORIGINAL
-@criar_funcao
+@criar_funcao #decorador
 def inverte_string(string):
     return string[::-1]
 
