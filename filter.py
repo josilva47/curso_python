@@ -1,3 +1,5 @@
+#filter() é uma função embutida do Python usada para filtrar elementos de um iterável, mantendo apenas os que passam em uma condição.
+
 def print_iter(iterator):
     print(*iterator, sep='\n')
     print()
